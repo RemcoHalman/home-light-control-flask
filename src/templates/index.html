@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<a class="btn btn-lg btn-primary" href="{{ url_for ('aan', light='Woonkamer lamp 2') }}">Aan</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('uit', light='Woonkamer lamp 2') }}">Uit</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='20') }}">20</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='40') }}">40</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='60') }}">60</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='100') }}">100</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='150') }}">150</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='200') }}">200</a>
+<a class="btn btn-lg btn-primary" href="{{ url_for ('light',light='Woonkamer lamp 2', value='255') }}">255</a>
+
+{% endblock %}
